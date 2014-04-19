@@ -1,6 +1,6 @@
 # Jasmine.Async
 
-Make Jasmine's asynchronous testing suck less.
+Make asynchronous testing in Jasmine (v1.3) suck less.
 
 ## About Jasmine.Async
 
@@ -12,6 +12,8 @@ is painful at best.
 Thus, Jasmine.Async was born out of frustration and little bit
 of jealousy in how easy it is to do async tests with [Mocha](http://visionmedia.github.com/mocha/). 
 
+**Note:** This only applies to Jasmine v1.3. Jasmine v2 has
+this feature built in to it and you don't need this add-on.
 
 ## Basic Usage
 
