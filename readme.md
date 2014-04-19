@@ -1,6 +1,6 @@
 # Jasmine.Async
 
-Make asynchronous testing in Jasmine (v1.3) suck less.
+Make asynchronous testing in NodeJS, with Jasmine (v1.3) suck less.
 
 ## About Jasmine.Async
 
