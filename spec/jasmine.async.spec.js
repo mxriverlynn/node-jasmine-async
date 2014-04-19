@@ -1,3 +1,5 @@
+var AsyncSpec = require("../src/jasmine.async.js");
+
 describe("jasmine.async", function(){
   var wait = 0,
       beforeEachCompleted;
@@ -11,19 +13,21 @@ describe("jasmine.async", function(){
   async.beforeEach(function(done){
     setTimeout(function(){
       beforeEachCompleted = true;
-
+      expect(true).toBe(true);
       done();
     }, wait); 
   });
 
   async.it("completes the async test", function(done){
     setTimeout(function(){
+      expect(true).toBe(true);
       done();
     }, wait);    
   });
 
   async.afterEach(function(done){
     setTimeout(function(){
+      expect(true).toBe(true);
       done();
     }, wait);
   });

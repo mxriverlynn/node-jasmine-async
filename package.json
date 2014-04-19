@@ -1,8 +1,8 @@
 {
-  "name": "Jasmine.Async",
+  "name": "node-jasmine-async",
   "description": "Make Jasmine's asynchronous testing suck less.",
   "version": "0.1.0",
-  "homepage": "https://github.com/derickbailey/jasmine.async",
+  "homepage": "https://github.com/derickbailey/node-jasmine-async",
   "keywords": [
     "jasmine",
     "async",
@@ -10,49 +10,27 @@
     "test",
     "browser"
   ],
-
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/derickbailey/jasmine.async/blob/master/readme.md"
+      "url": "https://github.com/derickbailey/node-jasmine-async/blob/master/readme.md"
     }
   ],
-
   "author": {
     "name": "Derick Bailey",
     "email": "derickbailey@gmail.com",
     "web": "http://derickbailey.lostechies.com"
   },
-
   "bugs": {
-    "web": "https://github.com/derickbailey/jasmine.async/issues"
+    "web": "https://github.com/derickbailey/node-jasmine-async/issues"
   },
-
   "repository": {
     "type": "git",
-    "url": "https://github.com/derickbailey/jasmine.async.git"
+    "url": "https://github.com/derickbailey/node-jasmine-async.git"
   },
-
-  "github": "https://github.com/derickbailey/jasmine.async",
-
+  "github": "https://github.com/derickbailey/node-jasmine-async",
   "devDependencies": {
-    "grunt": "*",
-    "grunt-rigger": "*"
-  },
-
-  "volo": {
-    "url": "https://raw.github.com/derickbailey/jasmine.async/v{version}/lib/jasmine.async.js",
-    "dependencies": {
-    }
-  },
-
-  "jam":{
-    "dependencies": {
-    },
-    "main": "lib/jasmine.async.js",
-    "include": [
-      "lib/jasmine.async.js",
-      "readme.md"
-    ]
+    "grunt": "^0.4.4",
+    "grunt-jasmine-node": "^0.2.1"
   }
 }
